@@ -6,5 +6,6 @@ namespace cit_project.Models
     public string Name { get; set; }
 
     public IEnumerable<Student> Students { get; set; }
-  }
+    public IEnumerable<Schedule> Schedules { get; set; }
+    }
 }
