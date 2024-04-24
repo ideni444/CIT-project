@@ -1,25 +1,25 @@
 ﻿
 
-1. Open the Solution in Visual Studio
-2. Build the project 
-3. Navigate to tools ans select Nuget Package manager -> Package Manager Console (PMC)
-4. On the console execute the following command
-Update-Database  -Context School_Schedule_MVCIdentityContext
+1. Відкрийте рішення у Visual Studio
+2. Побудуйте проект
+3. Перейдіть до інструментів і виберіть Nuget Package Manager -> Package Manager Console (PMC)
+4. На консолі виконайте наступну команду
+Update-Database -Context School_Schedule_MVCIdentityContext
 
 
 
 
-5. On the console execute the following command
+5. На консолі виконайте наступну команду
 
-Update-Database  -Context School_Schedule_MVCDataContext
+Update-Database -Context School_Schedule_MVCDataContext
 
 
 
-6. After migration is successful Run the project 
+6. Після успішної міграції запустіть проект
 
-7 if you click on Teacher/Subject and etc (Except Home) this will redirect you to ASP .net identity login page login from the following credentials
+7 якщо ви натиснете «Вчитель/Предмет» тощо (окрім «Домашньої»), це переспрямує вас на сторінку входу з ідентифікацією ASP .net для входу з наступних облікових даних
 
-User : admin@school.com
-Password: 1qaz2wsX@
+Користувач: admin@school.com
+Пароль: 1qaz2wsX@
 
-8. Also you can register your own user via the Register link on menubar and login with that user.
+8. Також ви можете зареєструвати власного користувача за допомогою посилання Реєстрація на панелі меню та увійти під цим користувачем.
