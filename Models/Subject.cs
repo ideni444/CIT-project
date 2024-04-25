@@ -25,5 +25,7 @@ namespace School_Schedule_MVC.Models
         public string SubjectRegistrationId {
             get { return "SUB0000"+Name + Id; }
         }
+
+        public IEnumerable<TimeTable> TimeTables { get; set; }
     }
 }
