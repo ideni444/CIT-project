@@ -26,5 +26,6 @@ namespace School_Schedule_MVC.Models
         public string TeacherRegistrationName {
             get { return "REG0000" +Id +Name; }
         }
+        public IEnumerable<TimeTable> TimeTables { get; set; }
     }
 }
