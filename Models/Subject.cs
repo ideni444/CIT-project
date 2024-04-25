@@ -10,15 +10,13 @@ namespace School_Schedule_MVC.Models
     //A subject 
     public class Subject
     {
-        //Primary key.
-        public int Id { get; set; }
-
+        //Credits 
+        public int Credits { get; set; }
         //The subject name
         [Required]
         public string Name { get; set; }
-
-        //Credits 
-        public int Credits { get; set; }
+        //Primary key.
+        public int Id { get; set; }
         
         //Subject Registraton id 
         [NotMapped]
