@@ -6,14 +6,9 @@
 4. На консолі виконайте наступну команду
 Update-Database -Context School_Schedule_MVCIdentityContext
 
-
-
-
 5. На консолі виконайте наступну команду
 
 Update-Database -Context School_Schedule_MVCDataContext
-
-
 
 6. Після успішної міграції запустіть проект
 
